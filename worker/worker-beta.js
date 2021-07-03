@@ -14,10 +14,10 @@ const serviceaccounts = [
 const randomserviceaccount = serviceaccounts[Math.floor(Math.random()*serviceaccounts.length)];
 
 const authConfig = {
-    "siteName": "Bhadoo Drive Index", // Website name
-    "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
-    "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI", // Client Secret from Google Cloud Console
-    "refresh_token": "", // Authorize token
+    "siteName": "Levi Stream", // Website name
+    "client_id": "559612650365-4qj7kah8nbbhq4ar75fdgle07r7rcmr2.apps.googleusercontent.com", // Client id from Google Cloud Console
+    "client_secret": "xPoKIKlNxkqCs7-ExKfoKL5T", // Client Secret from Google Cloud Console
+    "refresh_token": "1//04aj7T_KEgbuaCgYIARAAGAQSNwF-L9IrfRsRDfB24ajAj3GJGc7r9Ns8eKTcBTDCa3Y_dl5Bkw-Br2UJEBksGEcQqfDZYuPWtUw", // Authorize token
     "service_account": false, // true if you're using Service Account instead of user account
     "service_account_json": randomserviceaccount, // don't touch this one
     "files_list_page_size": 50,
@@ -26,13 +26,13 @@ const authConfig = {
     "enable_password_file_verify": true, // support for .password file
     "roots":[
       {
-          "id": "root",
+          "id": "162FPnyvyBWY-glsepKtb6OjDT3-Z_RBS",
           "name": "Drive One",
           "protect_file_link": false,
          // "auth": {"username":"password"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
-          "id": "root",
+          "id": "11STpJ6m_QqQAihLwIIcwK1wX-ol95ZDh",
           "name": "Drive Two",
           "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
@@ -86,7 +86,7 @@ const uiConfig = {
     "display_size": true, // Set this to false to hide display file size
     "display_time": false, // Set this to false to hide display modified time for folder and files
     "display_download": true, // Set this to false to hide download icon for folder and files on main index
-    "disable_player": false, // Set this to true to hide audio and video players
+    "disable_player": true, // Set this to true to hide audio and video players
     "custom_srt_lang": "", // Subtitle Language Code for Custom .vtt language.
     "disable_video_download": false, // Remove Download, Copy Button on Videos
     "second_domain_for_dl": false, // If you want to display other URL for Downloading to protect your main domain.
@@ -101,7 +101,7 @@ const uiConfig = {
     "plyr_io_video_resolution": "16:9", // For reference, visit: https://github.com/sampotts/plyr#options
     "unauthorized_owner_link": "https://telegram.dog/Telegram", // Unauthorized Error Page Link to Owner
     "unauthorized_owner_email": "abuse@telegram.org", // Unauthorized Error Page Owner Email
-    "arc_code": "jfoY2h19" // arc.io Integraion Code, get yours from https://portal.arc.io
+    "arc_code": "dCRq4wqo" // arc.io Integraion Code, get yours from https://portal.arc.io
 };
 
 
